@@ -23,6 +23,7 @@ func (s *Stack) push(k int) {
 	}
 	s.data[s.i] = k
 	s.i++
+
 }
 func (s *Stack) pop() (ret int) {
 	s.i--
